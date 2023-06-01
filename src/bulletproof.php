@@ -399,7 +399,7 @@ class Image implements \ArrayAccess
      *
      * @return boolean
      */
-    protected function constraintValidator()
+    public function constraintValidator()
     {
       /* check image for valid mime types and return mime */
       $this->getImageMime($this->_files['tmp_name']);
